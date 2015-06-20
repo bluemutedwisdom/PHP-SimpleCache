@@ -2,6 +2,11 @@
 
 The PHP SimpleCache Class is an easy way to cache 3rd party API calls.
 
+This is a forked version from https://github.com/gilbitron/PHP-SimpleCache
+introducing:
+
+* pass the user\_agent to `do_curl` (make it work with github api)
+
 ## Install
 
 Install via [composer](https://getcomposer.org):
